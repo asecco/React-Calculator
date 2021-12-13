@@ -3,13 +3,14 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 body {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    background-color: #FC5C7D;
 }
 
 .container {
@@ -22,7 +23,7 @@ body {
     text-align: center;
     border: 10px solid #101116;
     background: #101116;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 .keypad {
@@ -60,7 +61,7 @@ input[type="text"] {
 }
 
 button {
-    margin: 4px;
+    margin: 2px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -78,6 +79,10 @@ input:active,
 button:focus,
 button:active {
     outline: none;
+}
+
+button:hover {
+    background-color: #6A82FB;
 }
 
 .highlight {
